@@ -24,9 +24,9 @@ body{
 
 /* Example hotspot positions (percent-based). Adjust if needed per image layout. */
 /* Default hotspot positions (tweakable via editor). B is centered-ish; next button is below B */
-.hs-A{left:10%; top:54px; width:24px}
-.hs-B{left:38%; top:54px; width:24px}
-.hs-C{left:66%; top:54px; width:24px}
+.hs-A{left:12%; top:54%;width:350px; height:400px; }
+.hs-B{left:37.5%; top:54%; width:375px; height:400px;}
+.hs-C{left:64.5%; top:54%; width:375px; height:400px;}
 
 /* Image-embedded next button area (center bottom) */
 .img-next{position:absolute; left:50%; transform:translateX(-50%); bottom:6%; width:28%; height:7%; background:#ff9800; border:none; border-radius:28px; color:#fff; font-weight:1000; font-size:20px; display:flex; align-items:center; justify-content:center; padding:8px 10px}
