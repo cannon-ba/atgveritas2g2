@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>3問式選択診断ゲーム</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Question 1 (image as screen with hotspots) -->
+    <section class="screen" id="q1">
+      <div class="image-wrap">
+        <img src="question1.png" alt="question1" class="hero">
+        <button class="hotspot hs-A" data-choice="A" aria-label="選択A"></button>
+        <button class="hotspot hs-B" data-choice="B" aria-label="選択B"></button>
+        <button class="hotspot hs-C" data-choice="C" aria-label="選択C"></button>
+        <button class="img-next" id="next1" aria-label="次へ">次へ</button>
+      </div>
+    </section>
+
+    <!-- Question 2 -->
+    <section class="screen" id="q2">
+      <div class="image-wrap">
+        <img src="question2.png" alt="question2" class="hero">
+        <button class="hotspot hs-A" data-choice="A" aria-label="選択A"></button>
+        <button class="hotspot hs-B" data-choice="B" aria-label="選択B"></button>
+        <button class="hotspot hs-C" data-choice="C" aria-label="選択C"></button>
+        <button class="img-next" id="next2" aria-label="次へ">次へ</button>
+      </div>
+    </section>
+
+    <!-- Question 3 -->
+    <section class="screen" id="q3">
+      <div class="image-wrap">
+        <img src="question3.png" alt="question3" class="hero">
+        <button class="hotspot hs-A" data-choice="A" aria-label="選択A"></button>
+        <button class="hotspot hs-B" data-choice="B" aria-label="選択B"></button>
+        <button class="hotspot hs-C" data-choice="C" aria-label="選択C"></button>
+        <button class="img-next" id="next3" aria-label="次へ">次へ</button>
+      </div>
+    </section>
+
+    <!-- Result (image-only; retry button inside image bottom center) -->
+    <section class="screen" id="result">
+      <div class="image-wrap">
+        <img src="result_A.png" alt="result" id="resultImage" class="hero">
+        <button class="img-next" id="retry" aria-label="もう一度">もう一度</button>
+      </div>
+    </section>
+  </div>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
