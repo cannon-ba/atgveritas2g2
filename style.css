@@ -29,7 +29,7 @@ body{
 .hs-C{left:64.5%; top:467px; width:375px; height:375px;}
 
 /* Image-embedded next button area (center bottom) */
-.img-next{position:absolute; left:50%; transform:translateX(-50%); bottom:6%; width:28%; height:10%; background:#ff9800; border:none; border-radius:100px; color:#fff; font-weight:1000; font-size:40px; display:flex; align-items:center; justify-content:center; padding:8px 10px}
+.img-next{position:absolute; left:50%; transform:translateX(-50%); bottom:4%; width:28%; height:10%; background:#d56305; border:none; border-radius:100px; color:#fff; font-weight:1000; font-size:40px; display:flex; align-items:center; justify-content:center; padding:8px 10px}
 
 .result-wrap{width:100%; height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:18px}
 .result-wrap .hero{max-height:50vh; width:auto}
